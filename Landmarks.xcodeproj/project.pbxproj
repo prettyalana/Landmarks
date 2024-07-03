@@ -96,6 +96,10 @@
 				E7A46F992C35ED22006327C6 /* Model */,
 				E7A46F9A2C35ED38006327C6 /* Resources */,
 				E7DC24A02C3349A4005E9F35 /* Assets.xcassets */,
+				E7DC249E2C3349A4005E9F35 /* ContentView.swift */,
+				E7DC24A02C3349A4005E9F35 /* Assets.xcassets */,
+				E7DC24AC2C334F8C005E9F35 /* CircleImage.swift */,
+				E7DC24AE2C3352DD005E9F35 /* MapView.swift */,
 				E7DC24A22C3349A4005E9F35 /* Preview Content */,
 			);
 			path = Landmarks;

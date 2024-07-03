@@ -1,0 +1,25 @@
+//
+//  LandmarkRow.swift
+//  Landmarks
+//
+//  Created by Alana Edwards on 7/3/24.
+//
+
+import SwiftUI
+
+struct LandmarkRow: View {
+    var landmark: Landmark
+    
+    var body: some View {
+        HStack {
+            landmark.image
+                .resizable()
+                .frame(width: 50, height: 50)
+            Text(landmark.name)
+        }
+    }
+}
+
+#Preview {
+    LandmarkRow(landmark: landmarks[0])
+}
